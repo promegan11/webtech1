@@ -1,0 +1,102 @@
+body {
+    background-color: deepskyblue;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+.contentImage {
+    width: 200px;
+}
+
+#banner {
+    height: 160px;
+    background: grey;
+    color: navy;
+    font-size: 140px;
+}
+
+#menuBar {
+    font-size: 17px;
+    float: right;
+    background: skyblue;
+    margin-top: 50px;
+}
+
+#menuBar .menuButton {
+    width: 150px;
+    background: orange;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: auto;
+    margin: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+#menuBar .menuButton:HOVER {
+    background: black;
+    border: 5px solid gray;
+    color: white;
+}
+
+.innerTable {
+    border: 1px double;
+    width: auto;
+}
+
+table {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 5px darkgreen solid;
+    border-collapse: collapse;
+
+}
+
+td {
+    border: 1px darkgreen solid;
+    height: 20px;
+    width: 50%;
+
+
+}
+
+.centeredTd {
+    text-align: center;
+}
+
+#booksTable {
+    width: 100%;
+    margin: auto;
+}
+.container{
+    margin-inline: 40%;
+    width: 200px;
+    padding: 10px;
+
+    font-family: "Arial Black", serif;
+    font-size: 15px;
+}
+
+.row.after{
+    content: "";
+    display: table;
+    clear: both;
+}
+input.after{
+    font-size: 15px;
+    font-family: "Arial", serif;
+    margin: auto;
+    min-width: 40px;
+    width: auto;
+}
+img{
+    width: 250px;
+    margin-left: 5%;
+}
